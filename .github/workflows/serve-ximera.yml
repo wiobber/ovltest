@@ -59,7 +59,7 @@ jobs:
           ./xmScripts/xmlatex bake  -j 5 
           ./xmScripts/xmlatex frost 
           ./xmScripts/xmlatex name  
-          ./xmScripts/xmlatex serve 
+          ./xmScripts/xmlatex serve  -f
           # ./xmScripts/xmlatex ghaction
           echo "✅ Published to $XIMERA_URL$XIMERA_NAME " >> $GITHUB_STEP_SUMMARY
 
